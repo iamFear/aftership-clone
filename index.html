@@ -17,41 +17,68 @@
   <body>
     <header class="landing-header">
       <nav class="header-nav">
-        <div class="header-logo">
-          <img
-            src="images/aftership-colored.svg"
-            alt="Aftership Logo"
-            class="logo-image"
-          />
-          <p class="logo-title">aftership</p>
+        <div class="nav-rigth">
+          <div class="header-logo">
+            <img
+              src="images/aftership-colored.svg"
+              alt="Aftership Logo"
+              class="logo-image"
+            />
+            <p class="logo-title">aftership</p>
+          </div>
+          <div class="header-options">
+            <ul class="options-list">
+              <li class="options-item">
+                <a href="#" class="options-link">Products</a>
+                <ion-icon
+                  name="chevron-down-outline"
+                  class="options-icon"
+                ></ion-icon>
+              </li>
+              <li class="options-item">
+                <a href="#" class="options-link pricing">Pricing</a>
+              </li>
+              <li class="options-item">
+                <a href="#" class="options-link">Resources</a>
+                <ion-icon
+                  name="chevron-down-outline"
+                  class="options-icon"
+                ></ion-icon>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="header-options">
-          <ul class="options-list">
-            <li class="options-item">
-              <a href="#" class="options-link">Products</a>
-              <ion-icon
-                name="chevron-down-outline"
-                class="options-icon"
-              ></ion-icon>
-            </li>
-            <li class="options-item">
-              <a href="#" class="options-link">Pricing</a>
-              <ion-icon
-                name="chevron-down-outline"
-                class="options-icon"
-              ></ion-icon>
-            </li>
-            <li class="options-item">
-              <a href="#" class="options-link">Resources</a>
-              <ion-icon
-                name="chevron-down-outline"
-                class="options-icon"
-              ></ion-icon>
-            </li>
-          </ul>
+
+        <div class="header-buttons">
+          <p class="buttons-login">
+            <a href="#" class="options-link">Login</a>
+          </p>
+
+          <a href="#" class="buttons-gs">Get started free</a>
+          <a href="#" class="buttons-demo">Book a demo</a>
         </div>
-        <div class="header-buttons">Class</div>
       </nav>
+
+      <section class="header-content">
+        <div class="content-rigth">
+          <p class="content-note">Post-purchase platform</p>
+          <h1 class="content-title">The journey begins after checkout</h1>
+          <p class="content-note">
+            Spark loyalty and engagement with a customer experience platform
+            that delights after the buy button.
+          </p>
+          <form class="content-form">
+            <input
+              type="email"
+              class="content-input"
+              placeholder="Business Email"
+            />
+            <input type="submit" class="content-submit" value="Book a demo" />
+          </form>
+        </div>
+
+        <div class="content-left"></div>
+      </section>
     </header>
 
     <script
